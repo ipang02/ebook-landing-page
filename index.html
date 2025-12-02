@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern eBook Landing Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+    <div class="container nav-container">
+        <a href="#" class="logo">
+            <img src="wp-logo.png" alt="logo" class="logo-img">
+        </a>
+        <ul class="nav-links">
+            <li><a href="#chapters">Chapters</a></li>
+            <li><a href="#author">Author</a></li>
+            <li><a href="#aboutus">About us</a></li>
+            <li><a href="#download" class="btn-nav">Get Copy</a></li>
+        </ul>
+    </div>
+</nav>
+
+
+    <section class="hero" id="home">
+        <div class="container hero-container">
+            <div class="hero-text hidden-el">
+                <span class="badge">New Release</span>
+                <h1>Master the Art of <br><span class="text-gradient">Modern Design</span></h1>
+                <p class="sub-text">Stop guessing. Start creating. The ultimate guide to UI/UX principles that actually
+                    convert users into customers.</p>
+                <div class="cta-group">
+                    <a href="https://elements.envato.com/web-templates/ebook+landing+page" class="btn btn-primary">Download Sekarang</a>
+                    <span class="guarantee"><i class="fas fa-check-circle"></i> Free Chapter Included</span>
+                </div>
+            </div>
+            <div class="hero-image hidden-el delay-200">
+                <div class="glass-card">
+                    <img src="POSTER 2-SA.png" alt="eBook Cover"
+                        class="book-cover">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="chapters">
+        <div class="container">
+            <div class="section-header hidden-el">
+                <h2>What's Inside</h2>
+                <p>A peek into the transformative knowledge awaiting you.</p>
+            </div>
+            <div class="grid-3">
+                <div class="card hidden-el">
+                    <div class="icon-box"><i class="fas fa-pencil-ruler"></i></div>
+                    <h3>Foundations</h3>
+                    <p>Understanding grid systems, hierarchy, and layout balance.</p>
+                </div>
+                <div class="card hidden-el delay-100">
+                    <div class="icon-box"><i class="fas fa-palette"></i></div>
+                    <h3>Color Theory</h3>
+                    <p>How to choose psychological color palettes that sell.</p>
+                </div>
+                <div class="card hidden-el delay-200">
+                    <div class="icon-box"><i class="fas fa-code"></i></div>
+                    <h3>Responsive Logic</h3>
+                    <p>Designing for mobile, tablet, and desktop seamlessly.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section bg-light" id="benefits">
+        <div class="container split-layout">
+            <div class="image-side hidden-el">
+                <img src="https://placehold.co/600x400/EEE/4A90E2?text=Statistics+Graph" alt="Benefits Graph">
+            </div>
+            <div class="text-side hidden-el">
+                <h2>Why This eBook?</h2>
+                <p>Most design books talk about theory. We talk about <strong
+                        style="color: var(--primary);">application</strong>.</p>
+                <ul class="benefit-list">
+                    <li><i class="fas fa-check"></i> Increase conversion rates by 40%</li>
+                    <li><i class="fas fa-check"></i> Learn tools used by top agencies</li>
+                    <li><i class="fas fa-check"></i> 50+ Ready-to-use templates</li>
+                    <li><i class="fas fa-check"></i> Lifetime updates included</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="testimonials">
+        <div class="container">
+            <div class="section-header hidden-el">
+                <h2>Loved by Readers</h2>
+            </div>
+            <div class="grid-2">
+                <div class="testimonial-card hidden-el">
+                    <p>"This eBook completely changed how I approach web design. The chapter on typography alone is
+                        worth the price."</p>
+                    <div class="user-info">
+                        <img src="https://placehold.co/50x50/333/fff?text=JS" alt="User">
+                        <div>
+                            <h4>Jane Smith</h4>
+                            <span>Frontend Dev</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card hidden-el delay-100">
+                    <p>"Finally, a guide that skips the fluff and goes straight to actionable advice. Highly
+                        recommended!"</p>
+                    <div class="user-info">
+                        <img src="https://placehold.co/50x50/333/fff?text=AD" alt="User">
+                        <div>
+                            <h4>Alex Doe</h4>
+                            <span>Product Designer</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section author-section" id="author">
+        <div class="container author-container hidden-el">
+            <img src="https://placehold.co/150x150/4A90E2/fff?text=Author" alt="Author Photo" class="author-img">
+            <div class="author-bio">
+                <h3>Meet the Author</h3>
+                <p><strong>Sarah Jenkins</strong> is a Lead Product Designer with 10+ years of experience helping
+                    startups scale through better UX. Her work has been featured in TechCrunch and DesignWeekly.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section bg-dark" id="download">
+        <div class="container form-container hidden-el">
+            <div class="form-wrapper">
+                <h2>Get Your Copy Now</h2>
+                <p>Join 10,000+ designers improving their craft.</p>
+
+                <form id="optinForm">
+                    <div class="input-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" placeholder="John Doe">
+                        <small class="error-msg">Name is required</small>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" placeholder="john@example.com">
+                        <small class="error-msg">Please enter a valid email</small>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-block">Download Sekarang</button>
+                    <p class="form-footer">We respect your privacy. Unsubscribe at any time.</p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 BookMaster Series. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
